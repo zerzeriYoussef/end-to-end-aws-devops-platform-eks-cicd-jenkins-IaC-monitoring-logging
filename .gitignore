@@ -1,0 +1,53 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Ansible
+*.retry
+ansible.log
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# SSH/private keys
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Local files
+.DS_Store
