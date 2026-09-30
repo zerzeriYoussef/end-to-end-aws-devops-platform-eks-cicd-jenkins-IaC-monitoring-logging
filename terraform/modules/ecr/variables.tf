@@ -1,5 +1,5 @@
-variable "ui_proj" {
-  description = "ecr name proj"
+variable "project_name" {
+  description = "Project name used for AWS resource naming"
   type        = string
 }
 
